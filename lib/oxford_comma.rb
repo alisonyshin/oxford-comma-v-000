@@ -9,5 +9,5 @@ def oxford_comma(array)
   end
 end
 
-array = ["apple","bananas","clementines"]
-oxford_comma(array)
+#array = ["apple","bananas","clementines"]
+#oxford_comma(array)
