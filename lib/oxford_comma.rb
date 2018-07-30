@@ -3,7 +3,7 @@ def oxford_comma(array)
     puts array
   else
     last_word = "and " + array.pop
-    puts array << last_word
+    array << last_word
     new_strings = array.join(", ")
     puts new_strings
   end
