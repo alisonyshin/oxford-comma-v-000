@@ -13,7 +13,7 @@
 # end
 
 array = ["apple","bananas","clementines"]
-oxford_comma(array)
+
 
 def oxford_comma(array)
   if array.length == 2
@@ -23,3 +23,4 @@ def oxford_comma(array)
   end
   array.join(", ")    
 end
+oxford_comma(array)
