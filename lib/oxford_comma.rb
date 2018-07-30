@@ -3,8 +3,8 @@ def oxford_comma(array)
     puts array
   else
     last_word = "and " + array[-1].to_s
-    new_array = array.pop
-    puts new_array
+    array.pop
+    puts array
     new_strings = array.join(", ")
     #puts new_strings
   end
