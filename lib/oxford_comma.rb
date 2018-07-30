@@ -4,6 +4,7 @@ def oxford_comma(array)
   elsif array.length == 2
     return array.join(" and ")
   else
+    array.[-1].insert(0,"and ")
     and_last_word = "and " + array.pop
     array << and_last_word
     new_strings = array.join(", ")
