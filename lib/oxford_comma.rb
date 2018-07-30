@@ -12,7 +12,7 @@
 #   end
 # end
 
-array = ["apple","bananas","clementines"]
+array = ["apple"]
 
 
 def oxford_comma(array)
