@@ -9,3 +9,4 @@ def oxford_comma(array)
 end
 
 array = ["apple","bananas","clementines"]
+oxford_comma(array)
