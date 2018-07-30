@@ -12,8 +12,8 @@
 #   end
 # end
 
-#array = ["apple","bananas","clementines"]
-#oxford_comma(array)
+array = ["apple","bananas","clementines"]
+oxford_comma(array)
 
 def oxford_comma(array)
   if array.length == 2
